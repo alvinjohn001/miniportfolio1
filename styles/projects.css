@@ -1,0 +1,90 @@
+.main .projects-section 
+{
+    height: 100vh; /* 100vh is normal size of web */
+    background-color: rgb(77, 73, 73);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+
+.main .projects-section h2
+{
+   font-size: 42px;
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main .projects-section .projects-main
+{
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 400px) 1fr;
+    grid-auto-rows: 600px;
+    column-gap: 80px;
+    row-gap: 20px;
+
+}
+.main .projects-section .projects-main .project-list p
+{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    
+}
+
+.main .projects-section .projects-main .project-list .btn-project-list button
+{
+    width: 100px;
+    height: 35px;
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    font-size: 17px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.main .projects-section .projects-main .project-list .btn-project-list button:hover
+{
+    width: 100px;
+    height: 35px;
+    background-color: var(--hover);
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid var(--primary);
+    color: black;
+    
+}
+
+.main .projects-section .projects-main .project-list
+{
+    background: rgba(231, 223, 223, 0.849);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    /* justify-content: center; */
+
+
+}
+
+.main .projects-section .projects-main .project-list:nth-child(1)
+{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    
+}
+.main .projects-section .projects-main .project-list:nth-child(2)
+{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.main .projects-section .projects-main .project-list:nth-child(3)
+{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}

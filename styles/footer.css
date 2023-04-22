@@ -1,0 +1,19 @@
+.main .footer-section
+{
+    height: 30vh; /* 100vh is normal size of web */
+    background: var(--primary);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+
+.main .footer-section .footer-main
+{
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 40px;
+}

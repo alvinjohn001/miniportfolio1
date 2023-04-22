@@ -1,0 +1,140 @@
+.main .contacts-section 
+{
+    height: 50vh; /* 100vh is normal size of web */
+    background: rgba(231, 223, 223, 0.849);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+
+.main .contacts-section .contact-main
+{
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding-top: 90px;
+}
+
+.main .contacts-section .contact-main .contacts-text-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+    padding-right: 70px;
+}
+
+.main .contacts-section .contact-main .contacts-text-container h1
+{
+    font-size: 70px;
+    font-weight: 400;
+    margin: 0;
+
+    color: #000;
+}
+
+.main .contacts-section .contact-main .contacts-text-container p
+{
+    font-weight: 400;
+    color: #000;
+}
+
+/* .main .contacts-section .contact-main .contacts-form-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    padding-right: 70px;
+
+} */
+
+.main .contacts-section .contact-main .contacts-form-container .contact-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    padding-right: 70px;
+
+}
+
+
+
+
+.main .contacts-section .contact-main .contacts-form-container label
+{
+    font-weight: 400;
+    color: #000;   
+}
+.main .contacts-section .contact-main .contacts-form-container #email
+{
+    margin-bottom: 10px;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    border: none;
+    height: 20px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 5%;
+    color: #000;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+.main .contacts-section .contact-main .contacts-form-container #message
+{
+    margin-bottom: 10px;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 15px;
+    border: none;
+    height: 100px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 5%;
+    color: #000;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.main .contacts-section .contact-main .contacts-form-container #message
+{
+    margin-bottom: 10px;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 15px;
+    border: none;
+    height: 100px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 5%;
+    color: #000;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.main .contacts-section .contact-main .contacts-form-container #button
+{
+    width: 100px;
+    height: 30px;
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.main .contacts-section .contact-main .contacts-form-container #button:hover
+{
+    width: 100px;
+    height: 30px;
+    background-color: var(--hover);
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid var(--primary);
+    color: black;
+    
+}
