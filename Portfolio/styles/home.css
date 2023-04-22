@@ -2,7 +2,7 @@
 .main .home-section
 {
     height: 100vh; /* 100vh is normal size of web */
-    background-image: url("./assets/bg.jpg");
+    background-image: url("../assets/bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
